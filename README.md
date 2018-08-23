@@ -41,4 +41,5 @@
   - red_bg 我的福利
   - circular_1 圆饼图1
   - circular_2 圆饼图2
+  ceshi
 
