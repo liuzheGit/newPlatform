@@ -26,6 +26,48 @@
         top: 0;
         font-size: 12px;
     }
+
+    /* 限量标 */
+    
+    /*精品推荐*/
+.rome_box{width:100%;margin-top:20px;overflow: hidden;box-shadow:0 2px 9px #808080;background-color:white;    border-radius: 3px;}
+.rome{width:100%;margin:0 auto;}
+.rome .title_rome{width:100%;height:44px;background:url(../images/tit_bg.png) no-repeat center;background-size:100% 130%;}
+.rome .title_rome p{font-size: 16px;padding-left:10px;line-height:38px;color:#0a2354;font-weight:500;}
+.content_rome{padding:10px;}
+.content_rome .annual{text-align:center;color:#000;border-bottom:1px solid #ddd;padding: 0 0 10px 0; overflow: hidden;}
+.content_rome .annual .annual_earnings{font-size:28px; color:red;}
+.content_rome .annual p.one{ float: left; width: 44%; padding-right: 6%;line-height:36px; text-align:right;}
+.content_rome .annual p.two{ float: right; width: 44%; padding-left: 6%;line-height:36px;text-align:left;}
+.limit_box{overflow: hidden;padding-top:6px;}
+.limit_box li{float:left;width:50%;text-align: center;font-size: 14px;line-height: 30px;color:#000;}
+.btn_investment{margin:10px 0 5px 0;overflow: hidden;}
+.btn_investment a{display: block;width: 100%;height: 38px;line-height: 38px;background-color: red;border-radius: 5px;text-align: center;color: #fff;font-size: 18px;margin: 0 auto;}
+.btn_investment .finished{background: #a0a0a0;}
+    .limit_biao_top img {
+      width: 100%;
+    }
+    .content_rome {
+        padding: 10px;
+    }
+    .content_rome .annual p.one {
+      float: left;
+      width: 25%;
+      padding-right: 6%;
+      line-height: 36px;
+      text-align: right;
+    }
+    .content_rome .annual p.two {
+      float: right;
+      width: 60%;
+      padding-left: 6%;
+      line-height: 36px;
+      text-align: right;
+    }
+
+    .annual_earnings .annual_earnings_add {
+      font-size: 20px;
+    }
 </style>
 <body>
  <div class="index_banner_box">
@@ -114,8 +156,61 @@
             </li>
         </ul>
     </nav>
+
     <div class="new_mark">
-        <div class="public_title">
+        <div class="rome_box">
+            <div class="rome">
+                <div class="limit_biao_top">
+                <img src="./images/pic_top_all_03.png">
+                </div>
+                <div class="content_rome">
+                <a href="/m/deposit.html" class="finished">
+                    <div class="annual">
+                    <p class="one">年化收益</p>
+                    <p class="annual_earnings two">5.00%
+                        <span class="annual_earnings_add"> + 2%</span>
+                    </p>
+                    </div>
+                    <ul class="limit_box">
+                    <li>存入上限：
+                        <span>100000.00</span>
+                    </li>
+                    <li>起存金额：
+                        <span>0.01</span>
+                    </li>
+                    </ul>
+                </a>
+                <div class="btn_investment">
+                    <a href="/m/deposit.html" class="finished">已满标</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="rome_box">
+                <div class="rome">
+                    <div class="title_rome">
+                        <p>精品月标</p>
+                    </div>
+                    <div class="content_rome">
+                        <a href="/M/invest/detail/id/836.html">
+                        <div class="annual">
+                            <p class="one">年化收益</p>
+                            <p class="annual_earnings two">12.00%</p>
+                        </div>
+                        <ul class="limit_box">
+                            <li>投资期限：<span>90 天</span></li>
+                            <li>投资金额：<span>180000.00</span></li>
+                        </ul>
+                        </a>
+                        <div class="btn_investment">
+                                                        <a href="/M/invest/detail/id/836.html">我要投资</a>					
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- <div class="public_title">
             <i></i>
             <span>新</span>
             <h2>新手专享标</h2>
@@ -188,7 +283,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
 </section>
 <footer>
   <ul>
