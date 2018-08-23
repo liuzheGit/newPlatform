@@ -10,6 +10,30 @@
 <link type="text/css" rel="stylesheet" href="css/public.css" />
 <link type="text/css" rel="stylesheet" href="css/index.css" />
 <style>
+    #lend_list a{
+        position: relative;
+    }
+    #lend_list .lend_state{
+        position: absolute;
+        display: inline-block;
+        width: 110px;
+        text-align: center;
+        top: 0;right: 0;
+        padding: 6px 14px;
+        border-radius: 5px;
+        letter-spacing: .3em;
+    }
+    .lend_state.isOk{
+        background: #ff8c79;
+        color: white;
+        border: 1px solid #ff8c79;
+    }
+    .lend_state.notOk{
+        background: #eee;
+        color: black;
+        border: 1px solid #eee;
+    }
+
     .oy-loading{
         position: fixed;
         top: 40%;
@@ -37,6 +61,7 @@
             <ul>
                 <li>
                     <a href="lend_nav.html">
+                        <span class="lend_state isOk">立即出借</span>
                         <h1><i></i><span>房</span>房融宝18100000</h1>
                         <div class="biao_nav public_ul">
                             <ul>
@@ -64,6 +89,7 @@
                 </li>
                 <li>
                     <a href="">
+                        <span class="lend_state notOk">还款中</span>
                         <h1><i class="next"></i><span>企</span>房融宝18100000</h1>
                         <div class="biao_nav public_ul">
                             <ul>
@@ -83,9 +109,9 @@
                         </div>
                         <div class="biao_bottom">
                            <p>
-                               <i style="width:80%;"></i>
+                               <i style="width:100%;"></i>
                            </p>
-                           <span>68%</span>
+                           <span>100%</span>
                         </div>
                     </a>
                 </li>
