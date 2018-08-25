@@ -11,8 +11,8 @@
 /*Í¨Öª*/
 .notice{border-bottom:1px solid #f5f5f5;line-height: 42px;height: 42px;overflow: hidden;overflow: hidden;
 	position: relative;background: #fff;}
-.notice span{position: absolute;left:19px;top:0;display: inline-block;text-align: center;color:#ff3919;}
-.message_notice{height:42px;color:#9c9c9c;overflow:hidden;position:relative;padding:0 19px 0 40px;}
+.notice span{position: absolute;left:5px;top:0;display: inline-block;text-align: center;color:#ff3919;}
+.message_notice{height:42px;color:#9c9c9c;overflow:hidden;position:relative;padding:0 19px 0 22px;}
 .message_notice ul{line-height:42px;}
 .message_notice ul li a{color: #9c9c9c;}
 /*µ¼º½*/
